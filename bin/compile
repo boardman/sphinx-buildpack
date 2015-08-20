@@ -75,7 +75,7 @@ indent() {
 
 # Virtualenv wrapper.
 function virtualenv (){
-  python "$ROOT_DIR/vendor/virtualenv-1.7.2/virtualenv.py" "$@"
+  python "$ROOT_DIR/vendor/virtualenv-13.1.0/virtualenv.py" "$@"
 }
 
 # Buildpack Steps.
